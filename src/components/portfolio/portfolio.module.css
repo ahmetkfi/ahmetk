@@ -77,14 +77,27 @@
         margin-bottom: 150px;
     }
 }
+@media screen and (max-width:490px) {
+        .work_description{
+            font-size: 15px;
+            margin-top: 0px;
+            text-align: center;
+        }
+}
 
 @media screen and (max-width:668px) {
     .work_container{
         width: 100%;
         text-align: justify;
         height: 500px;
+        padding: 20px;
+    }
+    .work_description{
+        margin-top: 30px;
     }
     .work_image{
+        width: 100%;
+        height: 200px;
         margin-bottom: 0px;
     }
 
