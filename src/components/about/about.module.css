@@ -111,7 +111,7 @@
 }
 
 /*for medium devices*/
-@media screen and (max-width:939px) {
+@media screen and (max-width:992px) {
 
     .content{
         flex-direction: column;
@@ -138,5 +138,21 @@
         width: 220px;
     }
    
+}
+
+@media screen and (max-width:490px) {
+      .info{
+        width: 100%;
+        padding: 0;
+        display: block;
+        margin:0;
+        position: relative;
+      }
+      .info_p{
+        font-size: 15px;
+        margin-top: 50px;
+        text-align: justify;
+        line-height: 15px;
+      }
 }
 
